@@ -129,76 +129,7 @@ const animationTimeline = () => {
       },
       "+=2"
     )
-     .from(".three5", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".three5",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=2"
-    )
-     .from(".three6", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".three6",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=2"
-    )
-     .from(".three7", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".three7",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=2"
-    )
-     .from(".three8", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".three8",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=2"
-    )
-     .from(".three9", 0.7, {
-      opacity: 0,
-      y: 10
-      // scale: 0.7
-    })
-    .to(
-      ".three9",
-      0.7,
-      {
-        opacity: 0,
-        y: 10
-      },
-      "+=2"
-    )
+    
     .from(".four", 0.7, {
       scale: 0.2,
       opacity: 0
@@ -230,6 +161,16 @@ const animationTimeline = () => {
     )
     .from(".idea-1", 0.7, ideaTextTrans)
     .to(".idea-1", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-1.1", 0.7, ideaTextTrans)
+    .to(".idea-1.1", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-1.2", 0.7, ideaTextTrans)
+    .to(".idea-1.2", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-1.3", 0.7, ideaTextTrans)
+    .to(".idea-1.3", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-1.4", 0.7, ideaTextTrans)
+    .to(".idea-1.4", 0.7, ideaTextTransLeave, "+=1.5")
+    .from(".idea-1.5", 0.7, ideaTextTrans)
+    .to(".idea-1.5", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-2", 0.7, ideaTextTrans)
     .to(".idea-2", 0.7, ideaTextTransLeave, "+=1.5")
     .from(".idea-3", 0.7, ideaTextTrans)
